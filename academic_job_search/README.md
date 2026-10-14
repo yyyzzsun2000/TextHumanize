@@ -1,12 +1,34 @@
 # Open faculty positions for an IS / MIS candidate — R1/R2 universities (updated 2026-10-14)
 
+## Version 3 (latest): `Final_Combined_Applications_Fit4-5.xlsx`
+
+This workbook combines every **fit 4–5** posting with your application tracker (`University_Applications_Yuanze_Sun_Updated_1012.xlsx`). On 2026-10-14 each posting you have not yet submitted was re-searched for:
+- whether it is still open, and its current deadline;
+- visa sponsorship and work-authorization wording;
+- whether industry experience is required;
+- the exact position type.
+
+| Sheet | Contents |
+|---|---|
+| README | Live summary counts (formulas) and how to read each column, including OPT / STEM OPT / H-1B notes |
+| To Submit by Oct 18 | 111 open fit 4–5 postings you have not submitted and can take (sponsorship stated, not stated, or OPT-only), sorted URGENT → APPLY NOW → UPCOMING |
+| All Fit 4-5 Combined | All 150 fit 4–5 postings, including the 30 you already submitted |
+| Not Eligible or Closed | 8 postings that require industry experience, plus 1 closed posting |
+| Already Submitted | All 60 tracker entries, matched to the R1/R2 list, with the other fit 4–5 lines at each school |
+
+Key columns: Position Type (research tenure-track / teaching tenure-track / clinical-practice / lecturer / part-time), Tenure?, Eligible for You?, Visa Sponsorship, Industry Experience, Start vs Your PhD (June 2027), OPT Path, Your Application Status.
+
+**Fix in this version:** a dedupe bug in version 2 had dropped Tulane's tenure-track IS Assistant Professor line, which you have already applied to. It is restored in `1_research_tenure_track_positions.csv` (294 rows in total now).
+
+---
+
 **Version 2.** This version re-scores everything using the match rule learned from your own IS job-board list (`isjobs-2026_7.csv`), removes positions that do not match, and adds positions found in a second round of searching.
 
 ## Files
 
 | File | Contents | Rows |
 |---|---|---|
-| `1_research_tenure_track_positions.csv` | Tenure-track or tenured lines at any rank (Assistant through Full or chair) | 170 |
+| `1_research_tenure_track_positions.csv` | Tenure-track or tenured lines at any rank (Assistant through Full or chair) | 171 |
 | `2_teaching_track_positions.csv` | Clinical, teaching professor, professor of practice, instructional and collegiate professorial lines | 31 |
 | `3_senior_lecturer_lecturer_positions.csv` | Lecturer, senior lecturer, instructor, visiting, term and part-time/adjunct pools | 92 |
 | `4_search_coverage_by_university.csv` | All 324 R1/R2 institutions and what the first search round found at each | 324 |
@@ -21,10 +43,10 @@ New columns:
 - **Unit**: business school, or a non-business IS-adjacent unit.
 - **Found By**: which search round found the position.
 
-**Totals: 293 positions.**
-- Fit distribution: research 5: 51, 4: 22, 3: 28, 2: 57, 1: 12; teaching 5: 7, 4: 11, 3: 4, 2: 6, 1: 3; lecturer 5: 36, 4: 23, 3: 16, 2: 10, 1: 7.
+**Totals: 294 positions.**
+- Fit distribution: research 5: 52, 4: 22, 3: 28, 2: 57, 1: 12; teaching 5: 7, 4: 11, 3: 4, 2: 6, 1: 3; lecturer 5: 36, 4: 23, 3: 16, 2: 10, 1: 7.
 - 76 positions are new in version 2 (34 of all rows are in non-business IS-adjacent units such as iSchools or data-science schools).
-- 82 earlier rows were scored higher and 58 lower.
+- 83 earlier rows were scored higher and 58 lower.
 - 57 earlier rows were removed as fit 0 (marketing, strategy, management/OB, accounting, finance, entrepreneurship, economics, theoretical statistics).
 
 ## What I learned from your example list
