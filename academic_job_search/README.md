@@ -16,7 +16,7 @@ Prepared for: PhD candidate in Management Science / MIS (UW–Milwaukee, PhD exp
 Each file is sorted by **Fit (high → low)**, then by deadline (soonest first).
 
 Fit distribution:
-- Research tenure-track: 5: 31, 4: 20, 3: 53, 2: 61, 1: 20
+- Research tenure-track: 5: 31, 4: 19, 3: 53, 2: 62, 1: 20
 - Teaching track: 5: 2, 4: 5, 3: 8, 2: 8, 1: 1
 - Lecturer: 5: 0, 4: 4, 3: 8, 2: 50, 1: 7
 
@@ -25,7 +25,13 @@ Fit distribution:
 - **Fit (1-5)**: 5 = excellent, 3 = moderate, 1 = poor (see the rubric below).
 - **Why It Fits Your CV**: the reasoning, citing your research (creator economy, platforms, misinformation; ISR R&R / MISQ under review), methods (econometrics, ML/LLMs, multimodal data) and teaching (cloud/Azure, ML for business, intro IS), plus the risks (timing, credentials, area mismatch).
 - **Application Deadline**: a fixed date (YYYY-MM-DD), "Open until filled", or "Not stated". **Deadline / Review Details** gives review-start or priority dates. Rows whose priority date has passed but which still accept applications until filled are marked as such.
-- **Posting URL** and **Link Type**: either the official university or application-system page (Interfolio, Workday, PeopleAdmin and similar), a job-board copy (HigherEdJobs, Chronicle, Inside Higher Ed, INFORMS, AIS), or, in a few cases, a job-portal listing page where you need to search for the title.
+- **Posting URL** and **Link Type**: the link type is one of:
+  - an official posting page (the university HR site or an application system such as Interfolio, Workday or PeopleAdmin);
+  - a job-board copy of the posting (HigherEdJobs, Chronicle, Inside Higher Ed, INFORMS, AIS and similar);
+  - an official listing or portal page;
+  - a search or mirror page.
+
+  For the last two types, search for the position title on that page or on the university portal.
 - **Open-Status Check**:
   - **Confirmed open**: re-checked; a current-cycle posting with a future deadline or open until filled.
   - **Likely open**: a current-cycle (2027-start) posting with no stated deadline and no sign of closure.
