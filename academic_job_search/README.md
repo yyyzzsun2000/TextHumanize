@@ -1,6 +1,28 @@
 # Open faculty positions for an IS / MIS candidate — R1/R2 universities (updated 2026-10-14)
 
-## Version 3 (latest): `Final_Combined_Applications_Fit4-5.xlsx`
+## Version 4 (Oct 15): R2 research positions at every fit level — `R2_Research_Positions_All_Fit.xlsx` / `6_R2_research_positions_all_fit.csv`
+
+Every research faculty position (tenure-track or tenured) found at the 137 R2 universities, including weak matches (fit 1–2). Same columns as the fit 4–5 workbook.
+
+| Sheet | Contents |
+|---|---|
+| R2 Research (Fit 1-5) | 50 positions: fit 5 ×18, fit 4 ×7, fit 3 ×4, fit 2 ×16, fit 1 ×5 (7 already submitted) |
+| R2 Research - Other Fields (0) | 46 research positions in business fields outside your profile (accounting, finance, marketing, management, economics, etc.), for completeness |
+| Closed or Not Current | 4 postings that confirmation searches showed to be closed or from an earlier hiring cycle |
+| R2 School Coverage | All 137 R2 schools: business school yes/no, positions found, search status and notes |
+
+**New search on Oct 15.** The 74 R2 universities with a business school but no research position in earlier results each got three independent searches:
+1. one school-specific open-web search;
+2. one job-board-only search, shared with one other school;
+3. one IS / analytics-focused job-board search, shared with three other schools.
+
+New finds at fit 1–5 then got a confirmation search for open status, deadline, sponsorship and industry experience. All earlier R2 rows at fit 1–3 were also checked for sponsorship and industry experience. The other 18 R2 universities are medical or specialty schools with no business school.
+
+**Correction to the fit 4–5 workbook (Oct 15).** A date-parsing bug had flagged six positions as "URGENT — priority review date Oct 14": American, Cal State LA, William & Mary, Hampton, Kentucky and Missouri. The date was really the day the checker ran the search. These six are now "APPLY NOW — rolling". The real deadlines this week are unchanged: Stanford GSB OIT (Oct 15), UW iSchool teaching track (Oct 15), and Purdue MIS Assistant and Associate/Full (Oct 17).
+
+---
+
+## Version 3: `Final_Combined_Applications_Fit4-5.xlsx`
 
 This workbook combines every **fit 4–5** posting with your application tracker (`University_Applications_Yuanze_Sun_Updated_1012.xlsx`). On 2026-10-14 each posting you have not yet submitted was re-searched for:
 - whether it is still open, and its current deadline;
